@@ -1,3 +1,5 @@
+/* This  is a Java Swing application  designed for managing a registration system with a MySQL database. 
+*/
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
@@ -20,7 +22,7 @@ import javax.swing.table.DefaultTableModel;
  */
 public class NewJFrame extends javax.swing.JFrame {
 private static final String USERNAME = "root";
-    private static final String PASSWORD = "@Machaki9506";
+    private static final String PASSWORD = " ";
     private static final String DATACONN = "jdbc:mysql://localhost:3306/denis";
       
     Connection sqlConn = null;
